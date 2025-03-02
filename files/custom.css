@@ -2503,6 +2503,15 @@ body,input,textarea,select{
     .et_pb_image_0 .et_pb_image_wrap img,.et_pb_image_1 .et_pb_image_wrap img{
         width:auto
     }
+    .rs-parallax-wrap {
+        left: 10px !important;
+    }
+    #slider-6-slide-17-layer-1 {
+        font-size: 12px !important;
+    }
+    #slider-6-slide-17-layer-0 {
+        width: 330px !important;
+    }
 }
  .fluid-width-video-wrapper{
     width:100%;

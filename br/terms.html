@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Termos e Condições | Investor Traits</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+  <style>
+    /* Alternância simples para navegação mobile */
+    .mobile-nav { display: none; }
+    @media (max-width: 768px) {
+      .mobile-nav { display: block; }
+      .desktop-nav { display: none; }
+    }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen bg-slate-900 text-slate-300">
+  <!-- Cabeçalho com Navegação -->
+  <header class="w-full z-30 fixed bg-slate-800/70 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="index.html" class="inline-flex">
+          <img src="files/logo.png" alt="Logo" width="184" height="32" class="max-w-none" />
+        </a>
+        <!-- Navegação para Desktop -->
+        <nav class="desktop-nav">
+          <ul class="flex space-x-6 items-center">
+            <li><a href="index.html" class="hover:text-white transition duration-150">Início</a></li>
+            <li><a href="about.html" class="hover:text-white transition duration-150">Sobre Nós</a></li>
+            <li><a href="contact.html" class="hover:text-white transition duration-150">Contate-nos</a></li>
+            <li><a href="terms.html" class="hover:text-white transition duration-150">Termos</a></li>
+            <li><a href="privacy.html" class="hover:text-white transition duration-150">Privacidade</a></li>
+          </ul>
+        </nav>
+        <!-- Botão de Menu Hamburger para Mobile -->
+        <div class="mobile-nav block md:hidden">
+          <button id="menu-btn" class="focus:outline-none">
+            <svg class="w-6 h-6 fill-slate-300 hover:fill-white transition duration-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Menu de Navegação Mobile -->
+    <nav id="mobile-menu" class="hidden bg-slate-800">
+      <ul class="flex flex-col space-y-2 px-4 py-3">
+        <li><a href="index.html" class="block hover:text-white transition duration-150">Início</a></li>
+        <li><a href="about.html" class="block hover:text-white transition duration-150">Sobre Nós</a></li>
+        <li><a href="contact.html" class="block hover:text-white transition duration-150">Contate-nos</a></li>
+        <li><a href="terms.html" class="block hover:text-white transition duration-150">Termos</a></li>
+        <li><a href="privacy.html" class="block hover:text-white transition duration-150">Privacidade</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="flex-grow pt-20">
+    <!-- Seção 1: Introdução -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70 pb-4">
+          Termos e Condições
+        </h1>
+        <p class="text-lg md:text-xl text-slate-300">
+          Bem-vindo à Investor Traits. Ao acessar e utilizar nosso site e serviços, você concorda em estar sujeito a estes Termos e Condições, que regem o uso de nossa plataforma e estabelecem os direitos e obrigações de ambas as partes.
+        </p>
+      </div>
+    </section>
+  
+    <!-- Seção 2: Uso dos Serviços -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Uso dos Serviços
+      </h2>
+      <p>
+        A Investor Traits disponibiliza uma variedade de serviços e ferramentas projetados para facilitar a gestão de suas necessidades financeiras e de seguros. Ao utilizar nossos serviços, você se compromete a cumprir todas as leis e regulamentos aplicáveis, bem como a utilizar a plataforma de maneira ética e responsável. É estritamente proibido o uso do site para atividades ilícitas ou fraudulentas, e qualquer conduta que prejudique ou interfira no funcionamento de nossos sistemas.
+      </p>
+      <p>
+        Você é responsável por manter a confidencialidade das suas informações de acesso e de todas as atividades que ocorram sob sua conta. Caso detecte qualquer uso não autorizado, deverá notificar imediatamente a Investor Traits. Além disso, você se compromete a fornecer informações verdadeiras e atualizadas em todos os momentos.
+      </p>
+    </section>
+  
+    <!-- Seção 3: Propriedade Intelectual -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Propriedade Intelectual
+      </h2>
+      <p>
+        Todo o conteúdo, design, textos, gráficos, logotipos e software presentes neste site são de propriedade exclusiva da Investor Traits ou de seus respectivos proprietários e estão protegidos pelas leis de propriedade intelectual. É proibida a reprodução total ou parcial sem o consentimento prévio por escrito da Investor Traits.
+      </p>
+      <p>
+        O uso indevido de nossos materiais pode dar origem a ações legais. Você se compromete a respeitar todos os direitos de propriedade intelectual e a não distribuir, modificar ou criar trabalhos derivados com base no conteúdo do nosso site sem a devida autorização.
+      </p>
+    </section>
+  
+    <!-- Seção 4: Limitação de Responsabilidade -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Limitação de Responsabilidade
+      </h2>
+      <p>
+        A Investor Traits não garante que o site ou os serviços estejam livres de erros, interrupções ou vírus. O uso da plataforma é por sua própria conta e risco, e em nenhum caso a Investor Traits será responsável por danos diretos, indiretos, incidentais ou consequentes decorrentes do acesso ou da impossibilidade de acessar o site.
+      </p>
+      <p>
+        Todas as garantias, expressas ou implícitas, estão limitadas ao máximo permitido por lei. A Investor Traits reserva-se o direito de modificar, suspender ou descontinuar qualquer aspecto dos serviços a qualquer momento, sem aviso prévio.
+      </p>
+    </section>
+  
+    <!-- Seção 5: Lei Aplicável e Modificações -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Lei Aplicável e Modificações
+      </h2>
+      <p>
+        Estes Termos e Condições serão regidos e interpretados de acordo com as leis vigentes na jurisdição onde a Investor Traits tem sua sede principal. Qualquer controvérsia decorrente do uso de nossos serviços será submetida aos tribunais competentes dessa jurisdição.
+      </p>
+      <p>
+        A Investor Traits reserva-se o direito de atualizar ou modificar estes termos a qualquer momento. Recomenda-se que os usuários revisem esta seção periodicamente para se manterem informados sobre as alterações. O uso contínuo da plataforma após a publicação de modificações constitui a aceitação dos novos termos.
+      </p>
+      <p>
+        Ao utilizar nosso site, você reconhece que leu, compreendeu e aceitou estas condições, comprometendo-se a cumpri-las integralmente.
+      </p>
+    </section>
+  </main>  
+
+  <!-- Rodapé -->
+  <footer class="bg-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+      <div class="grid sm:grid-cols-12 gap-8">
+        <div class="sm:col-span-12 lg:col-span-6">
+          <div class="flex flex-col sm:flex-row lg:flex-col justify-between">
+            <a href="index.html" class="inline-flex mb-2">
+              <img src="files/logo.png" alt="Logo" width="184" height="32" class="max-w-none" />
+            </a>
+            <div class="text-sm text-slate-300">
+              © Investor Traits 2025<span class="text-slate-500"> - </span>Todos os direitos reservados.
+              <br /><br />
+            </div>
+            <div class="text-sm text-slate-300">
+              CNPJ: 78.989.613/0001-90<br />
+              Inscrição Estadual: 8324829-77<br />
+              Endereço: 974 Rua Itaguaí, Mangabeira,<br />
+              Feira de Santana, 44056-516<br />
+              Tel: (75) 2871-8215
+            </div>
+          </div>
+        </div>
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <h6 class="text-sm text-slate-50 font-medium mb-2">Empresa</h6>
+          <ul class="text-sm space-y-2">
+            <li><a href="about.html" class="hover:text-slate-200 transition duration-150" target="_blank">Sobre Nós</a></li>
+            <li><a href="contact.html" class="hover:text-slate-200 transition duration-150" target="_blank">Contate-nos</a></li>
+            <li><a href="terms.html" class="hover:text-slate-200 transition duration-150" target="_blank">Termos</a></li>
+            <li><a href="privacy.html" class="hover:text-slate-200 transition duration-150" target="_blank">Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript para Alternar o Menu Mobile -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

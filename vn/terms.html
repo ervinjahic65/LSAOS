@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Điều Khoản và Điều Kiện | Investor Traits</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+  <style>
+    /* Simple mobile nav toggle */
+    .mobile-nav { display: none; }
+    @media (max-width: 768px) {
+      .mobile-nav { display: block; }
+      .desktop-nav { display: none; }
+    }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen bg-slate-900 text-slate-300">
+  <!-- Header with Navigation -->
+  <header class="w-full z-30 fixed bg-slate-800/70 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="index.html" class="inline-flex">
+          <img src="files/logo.png" alt="Logo" width="184" height="32" class="max-w-none" />
+        </a>
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <ul class="flex space-x-6 items-center">
+            <li><a href="index.html" class="hover:text-white transition duration-150">Trang chủ</a></li>
+            <li><a href="about.html" class="hover:text-white transition duration-150">Về Chúng Tôi</a></li>
+            <li><a href="contact.html" class="hover:text-white transition duration-150">Liên Hệ</a></li>
+            <li><a href="terms.html" class="hover:text-white transition duration-150">Điều Khoản</a></li>
+            <li><a href="privacy.html" class="hover:text-white transition duration-150">Chính Sách Riêng Tư</a></li>
+          </ul>
+        </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <div class="mobile-nav block md:hidden">
+          <button id="menu-btn" class="focus:outline-none">
+            <svg class="w-6 h-6 fill-slate-300 hover:fill-white transition duration-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Navigation Menu -->
+    <nav id="mobile-menu" class="hidden bg-slate-800">
+      <ul class="flex flex-col space-y-2 px-4 py-3">
+        <li><a href="index.html" class="block hover:text-white transition duration-150">Trang chủ</a></li>
+        <li><a href="about.html" class="block hover:text-white transition duration-150">Về Chúng Tôi</a></li>
+        <li><a href="contact.html" class="block hover:text-white transition duration-150">Liên Hệ</a></li>
+        <li><a href="terms.html" class="block hover:text-white transition duration-150">Điều Khoản</a></li>
+        <li><a href="privacy.html" class="block hover:text-white transition duration-150">Chính Sách Riêng Tư</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow pt-20">
+    <!-- Section 1: Introduction -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70 pb-4">
+          Điều Khoản và Điều Kiện
+        </h1>
+        <p class="text-lg md:text-xl text-slate-300">
+          Chào mừng bạn đến với Investor Traits. Bằng cách truy cập và sử dụng website cùng các dịch vụ của chúng tôi, bạn đồng ý bị ràng buộc bởi các Điều Khoản và Điều Kiện này, quy định việc sử dụng nền tảng của chúng tôi và thiết lập quyền lợi cũng như nghĩa vụ của cả hai bên.
+        </p>
+      </div>
+    </section>
+  
+    <!-- Section 2: Use of Services -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Sử Dụng Dịch Vụ
+      </h2>
+      <p>
+        Investor Traits cung cấp nhiều dịch vụ và công cụ được thiết kế nhằm hỗ trợ việc quản lý nhu cầu tài chính và bảo hiểm của bạn. Khi sử dụng các dịch vụ của chúng tôi, bạn đồng ý tuân thủ tất cả các quy định pháp luật hiện hành và sử dụng nền tảng một cách có đạo đức, có trách nhiệm. Việc sử dụng trang web cho các hoạt động phi pháp hoặc gian lận, hoặc bất kỳ hành vi gây hại hay can thiệp vào hoạt động của hệ thống, đều bị nghiêm cấm.
+      </p>
+      <p>
+        Bạn chịu trách nhiệm bảo mật thông tin đăng nhập của mình và tất cả các hoạt động xảy ra dưới tài khoản của bạn. Trong trường hợp có sự sử dụng trái phép, bạn phải thông báo ngay cho Investor Traits. Bạn cũng đồng ý cung cấp thông tin chính xác và cập nhật mọi lúc.
+      </p>
+    </section>
+  
+    <!-- Section 3: Intellectual Property -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Sở Hữu Trí Tuệ
+      </h2>
+      <p>
+        Tất cả nội dung, thiết kế, văn bản, đồ họa, logo và phần mềm trên trang web này là tài sản độc quyền của Investor Traits hoặc các chủ sở hữu tương ứng và được bảo vệ bởi luật sở hữu trí tuệ. Việc sao chép toàn bộ hoặc một phần mà không có sự đồng ý bằng văn bản của Investor Traits là bị cấm.
+      </p>
+      <p>
+        Việc sử dụng không đúng cách các tài liệu của chúng tôi có thể dẫn đến các hành động pháp lý. Bạn đồng ý tôn trọng tất cả các quyền sở hữu trí tuệ và không được phân phối, sửa đổi hoặc tạo ra các tác phẩm phái sinh dựa trên nội dung của trang web mà không có sự cho phép.
+      </p>
+    </section>
+  
+    <!-- Section 4: Limitation of Liability and Warranties -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Giới Hạn Trách Nhiệm
+      </h2>
+      <p>
+        Investor Traits không đảm bảo rằng trang web hay các dịch vụ của chúng tôi hoàn toàn không có lỗi, gián đoạn hoặc virus. Việc sử dụng nền tảng là do bạn tự chịu rủi ro, và trong mọi trường hợp, Investor Traits sẽ không chịu trách nhiệm về các thiệt hại trực tiếp, gián tiếp, ngẫu nhiên hay hậu quả phát sinh từ việc bạn truy cập hoặc không thể truy cập trang web.
+      </p>
+      <p>
+        Mọi bảo đảm, dù là rõ ràng hay ngụ ý, đều bị giới hạn ở mức tối đa cho phép theo pháp luật. Investor Traits có quyền thay đổi, tạm ngừng hoặc ngừng cung cấp bất kỳ phần nào của dịch vụ mà không cần thông báo trước.
+      </p>
+    </section>
+  
+    <!-- Section 5: Governing Law and Modifications -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Luật Áp Dụng và Sửa Đổi
+      </h2>
+      <p>
+        Các Điều Khoản và Điều Kiện này được điều chỉnh và giải thích theo pháp luật của khu vực nơi Investor Traits đặt trụ sở chính. Mọi tranh chấp phát sinh từ việc sử dụng dịch vụ của chúng tôi sẽ được giải quyết tại tòa án có thẩm quyền của khu vực đó.
+      </p>
+      <p>
+        Investor Traits có quyền cập nhật hoặc sửa đổi các điều khoản này bất cứ lúc nào. Người dùng được khuyến nghị xem lại phần này định kỳ để nắm bắt các thay đổi. Việc tiếp tục sử dụng nền tảng sau khi có sự sửa đổi được coi là bạn đã chấp nhận các điều khoản mới.
+      </p>
+      <p>
+        Bằng việc sử dụng trang web của chúng tôi, bạn xác nhận rằng bạn đã đọc, hiểu và chấp nhận đầy đủ các điều khoản này, và bạn đồng ý tuân thủ chúng một cách trọn vẹn.
+      </p>
+    </section>
+  </main>  
+
+  <!-- Footer -->
+  <footer class="bg-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+      <div class="grid sm:grid-cols-12 gap-8">
+        <div class="sm:col-span-12 lg:col-span-6">
+          <div class="flex flex-col sm:flex-row lg:flex-col justify-between">
+            <a href="index.html" class="inline-flex mb-2">
+              <img src="files/logo.png" alt="Logo" width="184" height="32" class="max-w-none" />
+            </a>
+            <div class="text-sm text-slate-300">
+              © Investor Traits 2025<span class="text-slate-500"> - </span>Bảo lưu mọi quyền.
+              <br /><br />
+            </div>
+            <div class="text-sm text-slate-300">
+              BRN: CR545721<br />
+              Địa chỉ: 13 Tsut Kou Ngan South Street Tsik Sit Hồng Kông<br />
+              Điện thoại: 30990879
+            </div>
+          </div>
+        </div>
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <h6 class="text-sm text-slate-50 font-medium mb-2">Công ty</h6>
+          <ul class="text-sm space-y-2">
+            <li><a href="about.html" class="hover:text-slate-200 transition duration-150" target="_blank">Về Chúng Tôi</a></li>
+            <li><a href="contact.html" class="hover:text-slate-200 transition duration-150" target="_blank">Liên Hệ</a></li>
+            <li><a href="terms.html" class="hover:text-slate-200 transition duration-150" target="_blank">Điều Khoản</a></li>
+            <li><a href="privacy.html" class="hover:text-slate-200 transition duration-150" target="_blank">Chính Sách Riêng Tư</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Mobile Menu Toggle -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

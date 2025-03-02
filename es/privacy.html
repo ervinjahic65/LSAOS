@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad | Investor Traits</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+  <style>
+    /* Simple mobile nav toggle styling */
+    .mobile-nav { display: none; }
+    @media (max-width: 768px) {
+      .mobile-nav { display: block; }
+      .desktop-nav { display: none; }
+    }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen bg-slate-900 text-slate-300">
+  <!-- Header with Navigation -->
+  <header class="w-full z-30 fixed bg-slate-800/70 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="index.html" class="inline-flex">
+          <img src="files/logo.png" alt="Logo" width="184" height="32" class="max-w-none" />
+        </a>
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <ul class="flex space-x-6 items-center">
+            <li><a href="index.html" class="hover:text-white transition duration-150">Inicio</a></li>
+            <li><a href="about.html" class="hover:text-white transition duration-150">Sobre Nosotros</a></li>
+            <li><a href="contact.html" class="hover:text-white transition duration-150">Contáctanos</a></li>
+            <li><a href="terms.html" class="hover:text-white transition duration-150">Términos</a></li>
+            <li><a href="privacy.html" class="hover:text-white transition duration-150">Privacidad</a></li>
+          </ul>
+        </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <div class="mobile-nav block md:hidden">
+          <button id="menu-btn" class="focus:outline-none">
+            <svg class="w-6 h-6 fill-slate-300 hover:fill-white transition duration-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Navigation Menu -->
+    <nav id="mobile-menu" class="hidden bg-slate-800">
+      <ul class="flex flex-col space-y-2 px-4 py-3">
+        <li><a href="index.html" class="block hover:text-white transition duration-150">Inicio</a></li>
+        <li><a href="about.html" class="block hover:text-white transition duration-150">Sobre Nosotros</a></li>
+        <li><a href="contact.html" class="block hover:text-white transition duration-150">Contáctanos</a></li>
+        <li><a href="terms.html" class="block hover:text-white transition duration-150">Términos</a></li>
+        <li><a href="privacy.html" class="block hover:text-white transition duration-150">Privacidad</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow pt-20">
+    <!-- Section 1: Introducción -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70 pb-4">
+          Política de Privacidad
+        </h1>
+        <p class="text-lg md:text-xl text-slate-300">
+          En Investor Traits, la privacidad y seguridad de sus datos son fundamentales. Esta Política de Privacidad describe de forma clara cómo recopilamos, utilizamos y protegemos su información personal, asegurando un manejo transparente y responsable.
+        </p>
+      </div>
+    </section>
+  
+    <!-- Section 2: Recopilación y Uso de Datos -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Recopilación y Uso de Datos
+      </h2>
+      <p>
+        Investor Traits recopila información que usted nos proporciona de manera voluntaria cuando utiliza nuestros servicios o se registra en nuestro sitio web. Estos datos pueden incluir su nombre, dirección de correo electrónico, número de teléfono, dirección y otra información relevante para ofrecerle una experiencia personalizada. Además, a través de cookies y otras tecnologías similares, recopilamos datos de navegación para analizar tendencias, mejorar el rendimiento del sitio y optimizar la experiencia del usuario.
+      </p>
+      <p>
+        La información recopilada se utiliza para procesar solicitudes, enviar actualizaciones, mejorar nuestros servicios y, en ocasiones, para fines de marketing, siempre con el consentimiento previo del usuario. Investor Traits se compromete a no compartir sus datos personales con terceros sin su autorización, salvo cuando la ley lo exija.
+      </p>
+    </section>
+  
+    <!-- Section 3: Protección y Seguridad de Datos -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Protección y Seguridad
+      </h2>
+      <p>
+        La seguridad de sus datos es una prioridad para Investor Traits. Implementamos medidas técnicas y organizativas avanzadas para proteger su información contra accesos no autorizados, pérdida, o alteración. Nuestros protocolos de seguridad incluyen el uso de encriptación, firewalls y sistemas de detección de intrusos que trabajan en conjunto para asegurar que sus datos se mantengan confidenciales.
+      </p>
+      <p>
+        Revisamos y actualizamos constantemente nuestras prácticas de seguridad para cumplir con los estándares más altos de la industria, garantizando así la integridad y confidencialidad de toda la información que gestionamos.
+      </p>
+    </section>
+  
+    <!-- Section 4: Derechos del Usuario y Transparencia -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Derechos del Usuario y Transparencia
+      </h2>
+      <p>
+        Usted tiene derecho a acceder, corregir y, en ciertos casos, eliminar la información personal que Investor Traits posee sobre usted. Si desea ejercer estos derechos o tiene alguna inquietud sobre el manejo de sus datos, puede contactarnos a través de nuestros canales oficiales.
+      </p>
+      <p>
+        Asimismo, esta política puede actualizarse periódicamente para reflejar cambios en nuestras prácticas o en la legislación aplicable. Le recomendamos revisar esta sección con regularidad para estar informado sobre cómo protegemos su privacidad.
+      </p>
+    </section>
+  
+    <!-- Section 5: Contacto -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-slate-700">
+      <h2 class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/70 to-slate-100/70">
+        Contacto
+      </h2>
+      <p>
+        Si tiene alguna pregunta o comentario sobre esta Política de Privacidad, no dude en ponerse en contacto con nosotros. En Investor Traits estamos comprometidos con la transparencia y la protección de su información, y trabajamos continuamente para ofrecerle un entorno digital seguro y confiable.
+      </p>
+      <p>
+        Agradecemos su confianza y nos comprometemos a proteger su privacidad con el máximo rigor.
+      </p>
+    </section>
+  </main>  
+
+  <!-- Footer -->
+  <footer class="bg-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+      <div class="grid sm:grid-cols-12 gap-8">
+        <div class="sm:col-span-12 lg:col-span-6">
+          <div class="flex flex-col sm:flex-row lg:flex-col justify-between">
+            <a href="index.html" class="inline-flex mb-2">
+              <img src="files/logo.png" alt="Logo" width="184" height="32" class="max-w-none" />
+            </a>
+            <div class="text-sm text-slate-300">
+              © Investor Traits 2025<span class="text-slate-500"> - </span>Todos los derechos reservados.
+              <br /> <br />
+            </div>
+            <div class="text-sm text-slate-300">
+              CNPJ: 78.989.613/0001-90<br />
+              Inscrição Estadual: 8324829-77<br />
+              Endereço: 974 Rua Itaguaí, Mangabeira,<br />
+              Feira de Santana, 44056-516<br />
+              Tel: (75) 2871-8215
+            </div>
+          </div>
+        </div>
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <h6 class="text-sm text-slate-50 font-medium mb-2">Empresa</h6>
+          <ul class="text-sm space-y-2">
+            <li><a href="about.html" class="hover:text-slate-200 transition duration-150" target="_blank">Sobre Nosotros</a></li>
+            <li><a href="contact.html" class="hover:text-slate-200 transition duration-150" target="_blank">Contáctanos</a></li>
+            <li><a href="terms.html" class="hover:text-slate-200 transition duration-150" target="_blank">Términos</a></li>
+            <li><a href="privacy.html" class="hover:text-slate-200 transition duration-150" target="_blank">Privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Mobile Menu Toggle -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

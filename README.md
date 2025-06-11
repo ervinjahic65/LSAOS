@@ -1,1 +1,1 @@
-Check on this lin https://givingsecurity.com/
+Check on this lin https://givingsecurity.netlify.app/
